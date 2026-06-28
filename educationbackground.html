@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Background</title>
+
+    <style>
+        /* Basic styling for the e-resume */
+        body {
+            font-family: Garamond;
+            margin: 20px;
+            background-image: url("background image.jfif");
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;   
+            display: flex;
+            flex-direction: column;
+            min-height: calc(100vh - 40px);           
+        }
+        header {
+            background-color: #800000;
+            color: #fff;
+            padding: 7px;
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+           font-family: Cambria, serif;
+           font-size: 36px;
+        }
+        h2 {
+           font-family: Cambria, serif;
+           font-size: 28px;
+        }
+        .logo {
+            background-color: #D8BFD8;
+            color: #800000;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000000;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 30px;
+            overflow: hidden;
+        }
+        .logo img {
+            width: 95px;
+            height: 80px;
+            object-fit: cover;
+            display: block;
+        }
+        .header-content h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #DB7093;
+        }
+        .navbar a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+        .main-content {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            padding: 30px;
+        }
+        .education-container {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .education-container h2 {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .education-box {
+            background-color: #BC8F8F;
+            padding: 20px;
+            border-radius: 20px;
+            width: 100%;
+        }
+        .edu-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .edu-card h3 {
+            margin: 0;
+            color: #800000;
+        }
+        .certificate-section {
+            background-color: #BC8F8F;
+            padding: 15px;
+            border-radius: 20px;
+            width: 40%;
+            margin: 30px auto;
+        }
+        .certificate-main-title {
+            text-align: center;
+            color: #000000;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 20px;
+        }
+        .certificate-section h2{
+           text-align: center;
+           color: #000000;
+        }
+        .certificate-container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+        .certificate-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            width: 30%;
+            text-align: center;
+        }
+        .certificate-section h3 {
+            margin: 0;
+            color: #800000;
+        }
+        .footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="student.html">
+                <img src="logo picture .jpeg" alt="Logo Picture">
+            </a>
+        </div>
+        
+        <div class="header-content">
+            <h1>Education Background</h1>
+        </div>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="careerobjectives.html">Career Objectives</a>
+        <a href="educationbackground.html">Education Background</a>
+        <a href="extra-curricularactivities.html">Extra-Curricular Activities</a>
+        <a href="workexperience.html">Work Experience</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="main-content">
+
+        <div class="education-container">
+
+            <h2>Academic Background</h2>
+
+                <div class="education-box">
+
+                    <div class="edu-card">
+                        <h3>Universiti Teknologi Mara (UiTM) 
+                            Cawangan Puncak Perdana</h3>
+                        <p><strong>2025 - now</strong></p>
+                        <p>Bachelor of Information Science (Honours) 
+                            Information Content Management</p>
+                    </div>
+
+                    <div class="edu-card">
+                        <h3>SMK Dato' Onn, Batu Pahat, Johor</h3>
+                        <p><strong>2023 - 2025</strong></p>
+                        <p>Sijil Tinggi Pelajaran Malaysia (STPM)</p>
+                    </div>
+
+                    <div class="edu-card">
+                        <h3>SMK Dato' Onn, Batu Pahat, Johor</h3>
+                        <p><strong>2021 - 2023</strong></p>
+                        <p>Sijil Pelajaran Malaysia (SPM)</p>
+                    </div>
+
+                </div>
+
+        </div>
+
+        <div class="certificate-section">
+
+            <h2 class="certificate-main-title">Certificates</h2>
+            
+                <div class="certificate-container">              
+
+                    <div class="certificate-card">
+                        <h3>Sijil Tinggi Pelajaran Malaysia (STPM)</h3>
+                        <p><strong>2025</strong></p>
+                    </div>
+
+                    <div class="certificate-card">
+                        <h3>Malaysian University English Test (MUET)</h3>
+                        <p><strong>2025</strong></p>
+                    </div>
+
+                    <div class="certificate-card">
+                        <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+                        <p><strong>2023</strong></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </div>
+                
+    <div class="footer">
+        <p>&copy; 2026 Nur Aleeya Najwa. All rights reserved.</p>
+
+    </div>
+
+</body>
+</html>           

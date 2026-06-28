@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+        body {
+            font-family: Garamond;
+            margin: 20px;
+            background-image: url("background image.jfif");
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            min-height: calc(100vh - 40px);
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+        }
+        header {
+            background-color: #800000;
+            color: #fff;
+            padding: 7px;
+            text-align: center;
+            position: relative;
+        }
+        h1 {
+           font-family: Cambria, serif;
+           font-size: 36px;
+        }
+        h2 {
+           font-family: Cambria, serif;
+           font-size: 28px;
+        }
+        .logo {
+            background-color: #D8BFD8;
+            color: #800000;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #000000;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 30px;
+            overflow: hidden;
+        }
+        .logo h1 {
+            color: #800000;
+            font-size: 40px;
+            margin: 0;
+        }
+        .logo img {
+            width: 95px;
+            height: 80px;
+            object-fit: cover;
+            display: block;
+        }
+        .header-content h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+        .tagline {
+            font-style: cambria;
+            color: #fff;
+            margin-top: 10px;
+            font-size: 22px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #DB7093;
+        }
+        .navbar a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        .navbar a:hover {
+            background-color: #555;
+        }
+        .main-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding: 40px;
+        }
+        .picture {
+            flex: 0 0 220px;
+            width: 30px;
+            text-align: center;
+        }
+        .picture img {
+            width: 200px;
+            height: auto;
+            border-radius: 20%;
+            object-fit: cover;
+        }
+        .personal-info {
+            flex: 1;
+            background-color: #BC8F8F;
+            padding: 20px;
+            border-radius: 30px;
+            font-size: 17px;
+            width: 60%;
+        }
+        .personal-interests {
+            background-color: #DB7093;
+            padding: 15px;
+            border-radius: 100px;
+            width: 85%;
+            margin: -20px auto 20px auto;
+            text-align: center;
+            font-size: 17px;
+        }
+        .video-resume {
+            text-align: center;
+            margin: 30px 0 20px;
+        }
+        .video-resume video {
+            width: 300px;      
+            height: 400px;     
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        .tagline {
+           text-align: center;
+           margin-top: 5px;
+           font-style: italic;
+           font-size: 30px;
+           color: #800000;
+           font-weight: bold;
+        }
+        .footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="student.html">
+                <img src="logo picture .jpeg" alt="Logo Picture">
+            </a>
+        </div>
+
+        <div class="header-content">
+            <h1>About Me</h1> 
+
+        </div>
+
+    </header>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="careerobjectives.html">Career Objectives</a>
+        <a href="educationbackground.html">Education Background</a>
+        <a href="extra-curricularactivities.html">Extra-Curricular Activities</a>
+        <a href="workexperience.html">Work Experience</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="main-content">
+
+        <div class="picture">
+            <img src="passport picture.png" alt="Profile Picture">
+        </div>
+
+        <div class="personal-info">
+            <h2>Personal Information</h2>
+
+            <p><b>Name:</b> Nur Aleeya Najwa binti Samsudin</p></p>
+            <p><b>Age:</b> 21</p>
+            <p><b>Date of Birth:</b> 07th September 2005</p>
+            <p><b>Email:</b> aleeyanajwa75@gmail.com</p>
+            <p><b>Phone:</b> 019-244 7463</p>
+            <p><b>Gender:</b> Female</p>
+            <p><b>Marital Status:</b> Single</p>
+            <p><b>Nationality:</b> Malaysian</p>
+            <p><b>Place of Birth:</b> Batu Pahat, Johor</p>
+
+            <p>I am a Content Management student who is passionate about learning new skills and exploring new opportunities. 
+                I am a responsible and hardworking individual who enjoys working in teams, taking on challenges, 
+                and continuously improving myself.  
+            </p>
+        </div>
+
+    </div>
+
+    <div class="personal-interests">
+
+        <h2>Personal Interests</h2>
+
+        <p>My personal interests include watching movies and listening to music. These activities help me unwind, reduce stress, 
+            and stay inspired in my daily life. Through them, I am able to broaden my perspectives, 
+            appreciate different forms of creativity, and maintain a healthy balance between learning and leisure.
+        </p>
+    </div>
+ 
+    <div class="video-resume">
+        <video controls width="500">
+            <source src="Video Resume IMS458.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="tagline">
+        <p>"Driven by Passion, Guided by Purpose"</p>
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Nur Aleeya Najwa. All rights reserved.
+    </div>
+
+</body>
+</html>
